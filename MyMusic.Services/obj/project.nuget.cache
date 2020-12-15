@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "bR9U0MGHUYIq+CGcaWIgxIflw3SEv8Um+d6gHAJJGWpAXJLeie6LlX7hZSsHpczGIPxxv4tiDppb4OdE6E6m8A==",
+  "success": true,
+  "projectFilePath": "D:\\AspNet2020\\ProjetsMusic\\MyMusic.Services\\MyMusic.Services.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\diall\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\diall\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
