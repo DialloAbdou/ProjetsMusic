@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MyMusic.Core
 {
-    public interface IUnitOfWork
+    public interface IUnitOfWork:IDisposable
     {
         IArtistRepository Artist { get; }
         IMusicRepository Music { get; }
