@@ -1,7 +1,9 @@
-﻿using MyMusic.Core.Models;
+﻿using Microsoft.EntityFrameworkCore;
+using MyMusic.Core.Models;
 using MyMusic.Core.Repositories;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -13,19 +15,55 @@ namespace MyMusic.Data.Repositories
         {
             get { return Context as MyMusicDbContext; }
         }
-        public Task<IEnumerable<Music>> GetAllWithArtistAsync()
+        public MusicRepository(MyMusicDbContext myMusicDbContext) :base(myMusicDbContext)
         {
-            throw new NotImplementedException();
+
+        }
+        public async Task<IEnumerable<Music>> GetAllWithArtistAsync()
+        {
+            return await MyMusicDbContext.Musics
+                .Include(m => m.Artist)
+                .ToListAsync();
         }
 
-        public Task<IEnumerable<Music>> GetAllWithArtistByArtistIdAsync(int artistId)
+
+        public async Task<Music> GetWithArtistByIdAsync(int id)
         {
-            throw new NotImplementedException();
+
+            return await MyMusicDbContext.Musics
+                .Include(m => m.Artist)
+                .SingleOrDefaultAsync(m => m.ID == id);
         }
 
-        public Task<Music> GetWithArtistByIdAsync(int id)
+        public async Task<IEnumerable<Music>> GetAllWithArtistByArtistIdAsync(int artistId)
         {
-            throw new NotImplementedException();
+            return await MyMusicDbContext.Musics
+                .Include(m => m.Artist)
+                .Where(m => m.ArtistId == artistId)
+                .ToListAsync();                
         }
+
+        async Task<IEnumerable<Music>> IMusicRepository.GetAllWithArtistAsync()
+        {
+            return await MyMusicDbContext.Musics
+              .Include(m => m.Artist)
+              .ToListAsync();
+        }
+
+        async Task<Music> IMusicRepository.GetWithArtistByIdAsync(int id)
+        {
+            return await MyMusicDbContext.Musics
+               .Include(m => m.Artist)
+               .SingleOrDefaultAsync(m => m.ID == id); ;
+        }
+
+        async Task<IEnumerable<Music>> IMusicRepository.GetAllWithArtistByArtistIdAsync(int artistId)
+        {
+            return await MyMusicDbContext.Musics
+               .Include(m => m.Artist)
+               .Where(m => m.ArtistId == artistId)
+               .ToListAsync();
+        }
+
     }
 }

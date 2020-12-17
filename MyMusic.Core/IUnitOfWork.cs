@@ -8,8 +8,8 @@ namespace MyMusic.Core
 {
     public interface IUnitOfWork:IDisposable
     {
-        IArtistRepository Artist { get; }
-        IMusicRepository Music { get; }
+        IArtistRepository Artists { get; }
+        IMusicRepository Musics { get; }
         Task<int> CommitAsync();
     }
 }
