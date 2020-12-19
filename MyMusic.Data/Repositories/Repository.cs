@@ -15,7 +15,7 @@ namespace MyMusic.Data.Repositories
         public Repository(MyMusicDbContext myMusicDbContext)
         {
             Context = myMusicDbContext;
-                
+               
         }
         public async Task AddAsync(TEntity entity)
         {

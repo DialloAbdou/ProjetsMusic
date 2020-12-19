@@ -1,0 +1,9 @@
+D:\AspNet2020\ProjetsMusic\MyMusic.Core\bin\Debug\netstandard2.0\MyMusic.Core.deps.json
+D:\AspNet2020\ProjetsMusic\MyMusic.Core\bin\Debug\netstandard2.0\MyMusic.Core.dll
+D:\AspNet2020\ProjetsMusic\MyMusic.Core\bin\Debug\netstandard2.0\MyMusic.Core.pdb
+D:\AspNet2020\ProjetsMusic\MyMusic.Core\obj\Debug\netstandard2.0\MyMusic.Core.csprojAssemblyReference.cache
+D:\AspNet2020\ProjetsMusic\MyMusic.Core\obj\Debug\netstandard2.0\MyMusic.Core.AssemblyInfoInputs.cache
+D:\AspNet2020\ProjetsMusic\MyMusic.Core\obj\Debug\netstandard2.0\MyMusic.Core.AssemblyInfo.cs
+D:\AspNet2020\ProjetsMusic\MyMusic.Core\obj\Debug\netstandard2.0\MyMusic.Core.csproj.CoreCompileInputs.cache
+D:\AspNet2020\ProjetsMusic\MyMusic.Core\obj\Debug\netstandard2.0\MyMusic.Core.dll
+D:\AspNet2020\ProjetsMusic\MyMusic.Core\obj\Debug\netstandard2.0\MyMusic.Core.pdb

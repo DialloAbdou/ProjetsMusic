@@ -1,0 +1,12 @@
+D:\AspNet2020\ProjetsMusic\MyMusic.Data\bin\Debug\netstandard2.0\MyMusic.Data.deps.json
+D:\AspNet2020\ProjetsMusic\MyMusic.Data\bin\Debug\netstandard2.0\MyMusic.Data.dll
+D:\AspNet2020\ProjetsMusic\MyMusic.Data\bin\Debug\netstandard2.0\MyMusic.Data.pdb
+D:\AspNet2020\ProjetsMusic\MyMusic.Data\bin\Debug\netstandard2.0\MyMusic.Core.dll
+D:\AspNet2020\ProjetsMusic\MyMusic.Data\bin\Debug\netstandard2.0\MyMusic.Core.pdb
+D:\AspNet2020\ProjetsMusic\MyMusic.Data\obj\Debug\netstandard2.0\MyMusic.Data.csprojAssemblyReference.cache
+D:\AspNet2020\ProjetsMusic\MyMusic.Data\obj\Debug\netstandard2.0\MyMusic.Data.AssemblyInfoInputs.cache
+D:\AspNet2020\ProjetsMusic\MyMusic.Data\obj\Debug\netstandard2.0\MyMusic.Data.AssemblyInfo.cs
+D:\AspNet2020\ProjetsMusic\MyMusic.Data\obj\Debug\netstandard2.0\MyMusic.Data.csproj.CoreCompileInputs.cache
+D:\AspNet2020\ProjetsMusic\MyMusic.Data\obj\Debug\netstandard2.0\MyMusic.Data.csproj.CopyComplete
+D:\AspNet2020\ProjetsMusic\MyMusic.Data\obj\Debug\netstandard2.0\MyMusic.Data.dll
+D:\AspNet2020\ProjetsMusic\MyMusic.Data\obj\Debug\netstandard2.0\MyMusic.Data.pdb
