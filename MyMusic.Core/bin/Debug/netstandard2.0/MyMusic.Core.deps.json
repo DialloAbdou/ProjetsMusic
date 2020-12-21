@@ -9,6 +9,7 @@
     ".NETStandard,Version=v2.0/": {
       "MyMusic.Core/1.0.0": {
         "dependencies": {
+          "MongoDB.Bson": "2.11.5",
           "NETStandard.Library": "2.0.3",
           "System.Threading.Tasks.Extensions": "4.5.4"
         },
@@ -17,6 +18,14 @@
         }
       },
       "Microsoft.NETCore.Platforms/1.1.0": {},
+      "MongoDB.Bson/2.11.5": {
+        "runtime": {
+          "lib/netstandard2.0/MongoDB.Bson.dll": {
+            "assemblyVersion": "2.11.5.0",
+            "fileVersion": "2.11.5.0"
+          }
+        }
+      },
       "NETStandard.Library/2.0.3": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0"
@@ -55,6 +64,13 @@
       "sha512": "sha512-kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
       "path": "microsoft.netcore.platforms/1.1.0",
       "hashPath": "microsoft.netcore.platforms.1.1.0.nupkg.sha512"
+    },
+    "MongoDB.Bson/2.11.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OWsEN7ktxFKcynAMdv08TE5wkL1kkyWJUv+zhO3H3HcK+S4AU52AnxoyVmVSdPk5OWYoTtzbeCOIdmZV2dk5zg==",
+      "path": "mongodb.bson/2.11.5",
+      "hashPath": "mongodb.bson.2.11.5.nupkg.sha512"
     },
     "NETStandard.Library/2.0.3": {
       "type": "package",

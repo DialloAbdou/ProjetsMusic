@@ -1,11 +1,26 @@
 {
   "version": 2,
-  "dgSpecHash": "+1DutcQQPowZnRjXKy5QmNnmoEG0ldOzQrh8qb4jeJcHTW2z2JJfpK4wf7E41TvkAeGLK9MSuQezHNjq/cSBSg==",
+  "dgSpecHash": "xuRFhPO7aoBQLFLrRf8mXyi/rDZwWnVU0nsAAYYcKeC0pDcB6jaAY4Il/d6rx0VZ6+Sh2HkDf86IodImuMM9ZQ==",
   "success": true,
   "projectFilePath": "D:\\AspNet2020\\ProjetsMusic\\MyMusic.Data.MongoDB\\MyMusic.Data.MongoDB.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\diall\\.nuget\\packages\\dnsclient\\1.3.1\\dnsclient.1.3.1.nupkg.sha512",
+    "C:\\Users\\diall\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\diall\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",
+    "C:\\Users\\diall\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
     "C:\\Users\\diall\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\diall\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\diall\\.nuget\\packages\\mongodb.bson\\2.11.5\\mongodb.bson.2.11.5.nupkg.sha512",
+    "C:\\Users\\diall\\.nuget\\packages\\mongodb.driver\\2.11.5\\mongodb.driver.2.11.5.nupkg.sha512",
+    "C:\\Users\\diall\\.nuget\\packages\\mongodb.driver.core\\2.11.5\\mongodb.driver.core.2.11.5.nupkg.sha512",
+    "C:\\Users\\diall\\.nuget\\packages\\mongodb.libmongocrypt\\1.0.0\\mongodb.libmongocrypt.1.0.0.nupkg.sha512",
+    "C:\\Users\\diall\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\diall\\.nuget\\packages\\sharpcompress\\0.23.0\\sharpcompress.0.23.0.nupkg.sha512",
+    "C:\\Users\\diall\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\diall\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\diall\\.nuget\\packages\\system.numerics.vectors\\4.4.0\\system.numerics.vectors.4.4.0.nupkg.sha512",
+    "C:\\Users\\diall\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\5.0.0\\system.runtime.compilerservices.unsafe.5.0.0.nupkg.sha512",
+    "C:\\Users\\diall\\.nuget\\packages\\system.text.encoding.codepages\\4.5.1\\system.text.encoding.codepages.4.5.1.nupkg.sha512",
+    "C:\\Users\\diall\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
   ],
   "logs": []
 }
