@@ -54,3 +54,16 @@ D:\AspNet2020\ProjetsMusic\MyMusic.API\obj\Debug\netcoreapp3.1\MyMusic.API.cspro
 D:\AspNet2020\ProjetsMusic\MyMusic.API\obj\Debug\netcoreapp3.1\MyMusic.API.dll
 D:\AspNet2020\ProjetsMusic\MyMusic.API\obj\Debug\netcoreapp3.1\MyMusic.API.pdb
 D:\AspNet2020\ProjetsMusic\MyMusic.API\obj\Debug\netcoreapp3.1\MyMusic.API.genruntimeconfig.cache
+D:\AspNet2020\ProjetsMusic\MyMusic.API\bin\Debug\netcoreapp3.1\DnsClient.dll
+D:\AspNet2020\ProjetsMusic\MyMusic.API\bin\Debug\netcoreapp3.1\MongoDB.Bson.dll
+D:\AspNet2020\ProjetsMusic\MyMusic.API\bin\Debug\netcoreapp3.1\MongoDB.Driver.dll
+D:\AspNet2020\ProjetsMusic\MyMusic.API\bin\Debug\netcoreapp3.1\MongoDB.Driver.Core.dll
+D:\AspNet2020\ProjetsMusic\MyMusic.API\bin\Debug\netcoreapp3.1\MongoDB.Libmongocrypt.dll
+D:\AspNet2020\ProjetsMusic\MyMusic.API\bin\Debug\netcoreapp3.1\SharpCompress.dll
+D:\AspNet2020\ProjetsMusic\MyMusic.API\bin\Debug\netcoreapp3.1\runtimes\win\native\libzstd.dll
+D:\AspNet2020\ProjetsMusic\MyMusic.API\bin\Debug\netcoreapp3.1\runtimes\win\native\snappy32.dll
+D:\AspNet2020\ProjetsMusic\MyMusic.API\bin\Debug\netcoreapp3.1\runtimes\win\native\snappy64.dll
+D:\AspNet2020\ProjetsMusic\MyMusic.API\bin\Debug\netcoreapp3.1\MyMusic.Data.MongoDB.dll
+D:\AspNet2020\ProjetsMusic\MyMusic.API\bin\Debug\netcoreapp3.1\MyMusic.Services.dll
+D:\AspNet2020\ProjetsMusic\MyMusic.API\bin\Debug\netcoreapp3.1\MyMusic.Data.MongoDB.pdb
+D:\AspNet2020\ProjetsMusic\MyMusic.API\bin\Debug\netcoreapp3.1\MyMusic.Services.pdb

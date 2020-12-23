@@ -2089,6 +2089,19 @@
         "runtime": {
           "bin/placeholder/MyMusic.Data.MongoDB.dll": {}
         }
+      },
+      "MyMusic.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "dependencies": {
+          "MyMusic.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MyMusic.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MyMusic.Services.dll": {}
+        }
       }
     }
   },
@@ -7123,6 +7136,11 @@
       "type": "project",
       "path": "../MyMusic.Data.MongoDB/MyMusic.Data.MongoDB.csproj",
       "msbuildProject": "../MyMusic.Data.MongoDB/MyMusic.Data.MongoDB.csproj"
+    },
+    "MyMusic.Services/1.0.0": {
+      "type": "project",
+      "path": "../MyMusic.Services/MyMusic.Services.csproj",
+      "msbuildProject": "../MyMusic.Services/MyMusic.Services.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -7131,7 +7149,8 @@
       "Microsoft.EntityFrameworkCore.Tools >= 3.1.1",
       "MongoDB.Driver >= 2.11.5",
       "MyMusic.Data >= 1.0.0",
-      "MyMusic.Data.MongoDB >= 1.0.0"
+      "MyMusic.Data.MongoDB >= 1.0.0",
+      "MyMusic.Services >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -7171,6 +7190,9 @@
             },
             "D:\\AspNet2020\\ProjetsMusic\\MyMusic.Data\\MyMusic.Data.csproj": {
               "projectPath": "D:\\AspNet2020\\ProjetsMusic\\MyMusic.Data\\MyMusic.Data.csproj"
+            },
+            "D:\\AspNet2020\\ProjetsMusic\\MyMusic.Services\\MyMusic.Services.csproj": {
+              "projectPath": "D:\\AspNet2020\\ProjetsMusic\\MyMusic.Services\\MyMusic.Services.csproj"
             }
           }
         }

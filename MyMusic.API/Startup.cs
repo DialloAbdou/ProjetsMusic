@@ -10,6 +10,7 @@ using Microsoft.Extensions.Logging;
 using MongoDB.Driver;
 using MyMusic.Core;
 using MyMusic.Core.Repositories;
+using MyMusic.Core.Services;
 using MyMusic.Data;
 using MyMusic.Data.MongoDB.Repository;
 using MyMusic.Data.MongoDB.Setting;
@@ -48,6 +49,9 @@ namespace MyMusic.API
 
             // Injection Repo
             services.AddScoped<IComposerRepository, ComposerRepository>();
+
+            // les Differents Services 
+           
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

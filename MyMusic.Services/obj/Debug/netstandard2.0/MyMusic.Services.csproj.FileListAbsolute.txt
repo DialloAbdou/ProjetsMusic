@@ -7,3 +7,6 @@ D:\AspNet2020\ProjetsMusic\MyMusic.Services\obj\Debug\netstandard2.0\MyMusic.Ser
 D:\AspNet2020\ProjetsMusic\MyMusic.Services\obj\Debug\netstandard2.0\MyMusic.Services.csproj.CoreCompileInputs.cache
 D:\AspNet2020\ProjetsMusic\MyMusic.Services\obj\Debug\netstandard2.0\MyMusic.Services.dll
 D:\AspNet2020\ProjetsMusic\MyMusic.Services\obj\Debug\netstandard2.0\MyMusic.Services.pdb
+D:\AspNet2020\ProjetsMusic\MyMusic.Services\bin\Debug\netstandard2.0\MyMusic.Core.dll
+D:\AspNet2020\ProjetsMusic\MyMusic.Services\bin\Debug\netstandard2.0\MyMusic.Core.pdb
+D:\AspNet2020\ProjetsMusic\MyMusic.Services\obj\Debug\netstandard2.0\MyMusic.Services.csproj.CopyComplete
