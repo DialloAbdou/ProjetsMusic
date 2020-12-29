@@ -67,3 +67,8 @@ D:\AspNet2020\ProjetsMusic\MyMusic.API\bin\Debug\netcoreapp3.1\MyMusic.Data.Mong
 D:\AspNet2020\ProjetsMusic\MyMusic.API\bin\Debug\netcoreapp3.1\MyMusic.Services.dll
 D:\AspNet2020\ProjetsMusic\MyMusic.API\bin\Debug\netcoreapp3.1\MyMusic.Data.MongoDB.pdb
 D:\AspNet2020\ProjetsMusic\MyMusic.API\bin\Debug\netcoreapp3.1\MyMusic.Services.pdb
+D:\AspNet2020\ProjetsMusic\MyMusic.API\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+D:\AspNet2020\ProjetsMusic\MyMusic.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+D:\AspNet2020\ProjetsMusic\MyMusic.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\AspNet2020\ProjetsMusic\MyMusic.API\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\AspNet2020\ProjetsMusic\MyMusic.API\obj\Debug\netcoreapp3.1\MyMusic.API.MvcApplicationPartsAssemblyInfo.cs
