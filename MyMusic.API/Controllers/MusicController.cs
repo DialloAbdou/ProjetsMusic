@@ -1,5 +1,8 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using MyMusic.API.Mapping;
+using MyMusic.API.Ressources;
 using MyMusic.Core.Models;
 using MyMusic.Core.Services;
 using System;
@@ -14,25 +17,28 @@ namespace MyMusic.API.Controllers
     public class MusicController : ControllerBase
     {
         private readonly IMusicServices _musicServices;
-        public MusicController(IMusicServices musicServices)
+        private readonly IMapper _mapperService;
+        public MusicController(IMusicServices musicServices, IMapper mapperService)
         {
             _musicServices = musicServices;
+            _mapperService = mapperService;
         }
 
         [HttpGet("")]
-        public async Task<ActionResult<IEnumerable<Music>>> GetAllMusic()
+        public async Task<ActionResult<IEnumerable<MusicRessource>>> GetAllMusic()
         {
             try
             {
                 var musics = await _musicServices.GetAllWithArtist();
-                return Ok(musics);
+                var musicRessources = _mapperService.Map<IEnumerable<Music>, IEnumerable<MusicRessource>>(musics);
+                return Ok(musicRessources);
 
             }
             catch (Exception ex)
             {
 
                 return BadRequest(ex.Message);
-            }
+            }   
        
         }
     }
