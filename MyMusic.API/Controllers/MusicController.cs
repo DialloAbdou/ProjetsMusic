@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using MyMusic.API.Mapping;
 using MyMusic.API.Ressources;
+using MyMusic.API.Validation;
 using MyMusic.Core.Models;
 using MyMusic.Core.Services;
 using System;
@@ -24,6 +25,8 @@ namespace MyMusic.API.Controllers
             _mapperService = mapperService;
         }
 
+        //======GetALLMusic ========
+
         [HttpGet("")]
         public async Task<ActionResult<IEnumerable<MusicRessource>>> GetAllMusic()
         {
@@ -41,5 +44,59 @@ namespace MyMusic.API.Controllers
             }   
        
         }
+
+        //========GetMusicByID========
+
+        [HttpGet("{id}")]
+        public async Task< ActionResult< MusicRessource>> GetMusicByID(int id)
+        {
+
+            try
+            {
+
+                var music = await _musicServices.GetMusicById(id);
+                if (music == null) return NotFound();
+                var musicRessource = _mapperService.Map<Music, MusicRessource>(music);
+                return Ok(musicRessource);
+
+            }
+            catch (Exception ex)
+            {
+
+                return BadRequest(ex.Message);
+            }
+
+       
+        }
+
+        //===========CreatMusic===================
+
+        [HttpPost("")]
+        public async Task<ActionResult <MusicRessource>> CreateMusic( SaveMusicRessource saveMusicRessource)
+        {
+            try
+            {
+                //======Validation =====
+                var validation = new SaveMusicRessourceValidator();
+                var validationResult = await validation.ValidateAsync(saveMusicRessource);
+                if (!validationResult.IsValid) return BadRequest(validationResult.Errors);
+                // mappage
+                var music = _mapperService.Map<SaveMusicRessource, Music>(saveMusicRessource);
+                // Creation Music
+                var newMusic = await _musicServices.CreateMusic(music);
+                // mappage
+                var musicRessources = _mapperService.Map<Music, MusicRessource>(newMusic);
+
+                return Ok(musicRessources);
+
+
+            }
+            catch (Exception ex)
+            {
+
+                return BadRequest(ex.Message);
+            }
+        }
     }
+
 }

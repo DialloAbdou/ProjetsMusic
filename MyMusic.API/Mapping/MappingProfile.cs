@@ -10,15 +10,19 @@ namespace MyMusic.API.Mapping
 {
     public class MappingProfile : Profile
     {
-        // Domain (BD )vers Ressource
+        //===Une Classe qui permet de mapper des Champs dont l'utilisateur a besoin
         public MappingProfile()
         {
+            // Domain (BD )vers Ressource
             CreateMap<Music, MusicRessource>();
             CreateMap<Artist, ArtistRessource>();
+            CreateMap<Music, SaveMusicRessource>();
 
             // Ressource vers Domain (BD)
             CreateMap<MusicRessource, Music>();
             CreateMap<ArtistRessource, Artist>();
+            CreateMap<SaveMusicRessource, Music>();
+
 
 
 
