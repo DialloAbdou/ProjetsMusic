@@ -72,7 +72,7 @@ namespace MyMusic.API.Controllers
         //===========CreatMusic===================
 
         [HttpPost("")]
-        public async Task<ActionResult <MusicRessource>> CreateMusic( SaveMusicRessource saveMusicRessource)
+        public async Task<ActionResult <MusicRessource>> CreateMusic(SaveMusicRessource saveMusicRessource)
         {
             try
             {

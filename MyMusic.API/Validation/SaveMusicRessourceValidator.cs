@@ -15,7 +15,7 @@ namespace MyMusic.API.Validation
                 .NotEmpty()
                 .MaximumLength(50);
 
-            RuleFor(m => m.ArtisteId)
+            RuleFor(m => m.ArtistId)
                 .NotEmpty()
                 .WithMessage("'ArtistId', doit etre diffrent 0.");
                 

@@ -24,7 +24,19 @@ namespace MyMusic.Data
 
         public  async Task<int> CommitAsync()
         {
-            return await _context.SaveChangesAsync();
+            try
+            {
+                return await _context.SaveChangesAsync();
+
+            }
+            catch (Exception ex )
+            {
+
+                var toto = ex;
+
+                throw;
+            }
+        
         }
 
         public void Dispose()

@@ -23,11 +23,6 @@ namespace MyMusic.API.Mapping
             CreateMap<ArtistRessource, Artist>();
             CreateMap<SaveMusicRessource, Music>();
 
-
-
-
-
-
         }
 
     }

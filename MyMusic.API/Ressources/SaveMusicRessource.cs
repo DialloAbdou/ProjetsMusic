@@ -8,7 +8,7 @@ namespace MyMusic.API.Ressources
     public class SaveMusicRessource
     {
         public string Name { get; set; }
-        public int ArtisteId { get; set; }
+        public int ArtistId { get; set; }
 
     }
 }
