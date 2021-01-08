@@ -97,6 +97,29 @@ namespace MyMusic.API.Controllers
                 return BadRequest(ex.Message);
             }
         }
+
+        // ======Update Music==================
+
+        [HttpPut("{id}")]
+
+        public async Task<ActionResult<MusicRessource>> UpdateMusic (int id, SaveMusicRessource saveMusicRessource)
+        {
+            // validation
+            var validation = new SaveMusicRessourceValidator();
+            var validationResult = await validation.ValidateAsync(saveMusicRessource);
+            if (!validationResult.IsValid) return BadRequest(validationResult.Errors);
+            // Verifier existance de l'objet Music
+            var music=  await _musicServices.GetMusicById(id);
+            if (music == null) return BadRequest("Music n'existe pas");
+            //mappage 
+            var musicUpdate = _mapperService.Map<SaveMusicRessource, Music>(saveMusicRessource);
+            // update Music
+             await _musicServices.UpdateMusic(musicUpdate, music);
+            //===mappageNewMusicRessource
+            var musicUpdateNew = await _musicServices.GetMusicById(id);
+            var musicUpdateNewRessource = _mapperService.Map<Music, MusicRessource>(musicUpdateNew);
+            return Ok(musicUpdateNewRessource);
+        }
     }
 
 }
