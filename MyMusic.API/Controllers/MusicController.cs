@@ -114,7 +114,7 @@ namespace MyMusic.API.Controllers
             //mappage 
             var musicUpdate = _mapperService.Map<SaveMusicRessource, Music>(saveMusicRessource);
             // update Music
-             await _musicServices.UpdateMusic(musicUpdate, music);
+             await _musicServices.UpdateMusic(music, musicUpdate);
             //===mappageNewMusicRessource
             var musicUpdateNew = await _musicServices.GetMusicById(id);
             var musicUpdateNewRessource = _mapperService.Map<Music, MusicRessource>(musicUpdateNew);
