@@ -120,6 +120,20 @@ namespace MyMusic.API.Controllers
             var musicUpdateNewRessource = _mapperService.Map<Music, MusicRessource>(musicUpdateNew);
             return Ok(musicUpdateNewRessource);
         }
+
+
+        // =======Delete Music=========
+
+        [HttpDelete("{id}")]
+
+        public async Task<ActionResult> DeleteMusic(int id)
+        {
+            var music = await _musicServices.GetMusicById(id);
+            if (music == null) return BadRequest("music n'existe pas");
+            await _musicServices.DeleteMusic(music);
+            return NoContent();
+
+        }
     }
 
 }
