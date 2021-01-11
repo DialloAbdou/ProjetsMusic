@@ -17,11 +17,16 @@ namespace MyMusic.API.Mapping
             CreateMap<Music, MusicRessource>();
             CreateMap<Artist, ArtistRessource>();
             CreateMap<Music, SaveMusicRessource>();
+            CreateMap<Artist, SaveArtistRessource>();
+
+
 
             // Ressource vers Domain (BD)
             CreateMap<MusicRessource, Music>();
             CreateMap<ArtistRessource, Artist>();
             CreateMap<SaveMusicRessource, Music>();
+            CreateMap<SaveArtistRessource, Artist>();
+
 
         }
 

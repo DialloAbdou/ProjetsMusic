@@ -18,10 +18,12 @@ namespace MyMusic.API.Controllers
     public class MusicController : ControllerBase
     {
         private readonly IMusicServices _musicServices;
+        private readonly IArtistService _artistService;
         private readonly IMapper _mapperService;
-        public MusicController(IMusicServices musicServices, IMapper mapperService)
+        public MusicController(IMusicServices musicServices, IMapper mapperService, IArtistService artistService)
         {
             _musicServices = musicServices;
+            _artistService = artistService;
             _mapperService = mapperService;
         }
 
@@ -125,15 +127,34 @@ namespace MyMusic.API.Controllers
         // =======Delete Music=========
 
         [HttpDelete("{id}")]
-
         public async Task<ActionResult> DeleteMusic(int id)
         {
             var music = await _musicServices.GetMusicById(id);
             if (music == null) return BadRequest("music n'existe pas");
             await _musicServices.DeleteMusic(music);
             return NoContent();
+        }
+
+        //======= Recupère les Music de L'artist By ID=======
+
+        [HttpGet("Artist/id")]
+        public  async Task<ActionResult <IEnumerable<MusicRessource>>> GetALlMusicByArtistID(int id)
+        {
+            var artist =  await _artistService.GetArtistById(id);
+            if (artist == null) return BadRequest("la artiste n'existe pas");
+            var musics = await _musicServices.GetMusicsByArtistId(id);
+            if (musics == null) return BadRequest("Les musics n'existe pas");
+            // mappage 
+            var musicRessources = _mapperService.Map<IEnumerable<Music>, IEnumerable<MusicRessource>>(musics);
+            return Ok(musicRessources);
+
 
         }
+
+        // =====Delete Artist=======
+
+        
+
     }
 
 }
