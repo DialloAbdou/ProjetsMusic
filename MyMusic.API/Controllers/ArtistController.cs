@@ -122,7 +122,7 @@ namespace MyMusic.API.Controllers
         {
             try
             {
-                var artist = _artistService.GetArtistById(id);
+                var artist =  await _artistService.GetArtistById(id);
                 if (artist == null) return BadRequest("l'artist est null");
                 await _artistService.DeleteArtist(artist);
                 return NoContent();
