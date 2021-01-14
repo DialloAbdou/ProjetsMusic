@@ -19,7 +19,7 @@ namespace MyMusic.API.Controllers
     {
         private readonly IMusicServices _musicServices;
         private readonly IArtistService _artistService;
-        private readonly IComposerService _composerService;
+      
             
 
         private readonly IMapper _mapperService;

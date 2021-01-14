@@ -1,12 +1,12 @@
 D:\AspNet2020\ProjetsMusic\MyMusic.Data.MongoDB\bin\Debug\netstandard2.0\MyMusic.Data.MongoDB.deps.json
 D:\AspNet2020\ProjetsMusic\MyMusic.Data.MongoDB\bin\Debug\netstandard2.0\MyMusic.Data.MongoDB.dll
 D:\AspNet2020\ProjetsMusic\MyMusic.Data.MongoDB\bin\Debug\netstandard2.0\MyMusic.Data.MongoDB.pdb
+D:\AspNet2020\ProjetsMusic\MyMusic.Data.MongoDB\bin\Debug\netstandard2.0\MyMusic.Core.dll
+D:\AspNet2020\ProjetsMusic\MyMusic.Data.MongoDB\bin\Debug\netstandard2.0\MyMusic.Core.pdb
 D:\AspNet2020\ProjetsMusic\MyMusic.Data.MongoDB\obj\Debug\netstandard2.0\MyMusic.Data.MongoDB.csprojAssemblyReference.cache
 D:\AspNet2020\ProjetsMusic\MyMusic.Data.MongoDB\obj\Debug\netstandard2.0\MyMusic.Data.MongoDB.AssemblyInfoInputs.cache
 D:\AspNet2020\ProjetsMusic\MyMusic.Data.MongoDB\obj\Debug\netstandard2.0\MyMusic.Data.MongoDB.AssemblyInfo.cs
 D:\AspNet2020\ProjetsMusic\MyMusic.Data.MongoDB\obj\Debug\netstandard2.0\MyMusic.Data.MongoDB.csproj.CoreCompileInputs.cache
+D:\AspNet2020\ProjetsMusic\MyMusic.Data.MongoDB\obj\Debug\netstandard2.0\MyMusic.Data.MongoDB.csproj.CopyComplete
 D:\AspNet2020\ProjetsMusic\MyMusic.Data.MongoDB\obj\Debug\netstandard2.0\MyMusic.Data.MongoDB.dll
 D:\AspNet2020\ProjetsMusic\MyMusic.Data.MongoDB\obj\Debug\netstandard2.0\MyMusic.Data.MongoDB.pdb
-D:\AspNet2020\ProjetsMusic\MyMusic.Data.MongoDB\bin\Debug\netstandard2.0\MyMusic.Core.dll
-D:\AspNet2020\ProjetsMusic\MyMusic.Data.MongoDB\bin\Debug\netstandard2.0\MyMusic.Core.pdb
-D:\AspNet2020\ProjetsMusic\MyMusic.Data.MongoDB\obj\Debug\netstandard2.0\MyMusic.Data.MongoDB.csproj.CopyComplete
