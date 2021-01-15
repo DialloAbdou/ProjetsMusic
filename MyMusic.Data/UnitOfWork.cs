@@ -15,9 +15,6 @@ namespace MyMusic.Data
         private IMusicRepository _musicRepository;
         private IUserRepository _userRepository;
 
-
-
-
         public UnitOfWork(MyMusicDbContext context)
         {
             _context = context;
