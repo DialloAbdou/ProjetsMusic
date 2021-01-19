@@ -41,7 +41,7 @@ namespace MyMusic.API.Controllers
             var user= await _userServices.Authenticate(userRessource.Username, userRessource.Password);
 
             if (user == null) return BadRequest(new { message = "username or password is incorrect" });
-            var tokenHandler = new JwtSecurityTokenHandler();
+            var tokenHandler = new JwtSecurityTokenHandler(); 
             var key = Encoding.ASCII.GetBytes(_config.GetValue<string>("AppSettings:Secret"));
             var tokenDescriptor = new SecurityTokenDescriptor
             {
@@ -77,7 +77,7 @@ namespace MyMusic.API.Controllers
             if (!validationResult.IsValid) return BadRequest(validationResult.Errors);
             var user = _mapper.Map<UserRessource, User>(userResource);
             // mappage
-            var userSave = await _userServices.Create(user, userResource.Password);
+            var userSave = await _userServices  .Create(user, userResource.Password);
             //send tocken 
             var tokenHandler = new JwtSecurityTokenHandler();
             var key = Encoding.ASCII.GetBytes(_config.GetValue<string>("AppSettings:Secret"));

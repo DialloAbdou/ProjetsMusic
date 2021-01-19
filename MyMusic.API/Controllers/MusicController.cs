@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using MyMusic.API.Mapping;
@@ -77,6 +78,7 @@ namespace MyMusic.API.Controllers
         //===========CreatMusic===================
 
         [HttpPost("")]
+        [Authorize]
         public async Task<ActionResult <MusicRessource>> CreateMusic(SaveMusicRessource saveMusicRessource)
         {
             try

@@ -20,6 +20,8 @@ namespace MyMusic.API.Mapping
             CreateMap<Artist, SaveArtistRessource>();
             CreateMap<Composer, ComposerRessource>();
             CreateMap<Composer, SaveComposerRessource>();
+            CreateMap<User, UserRessource>();
+
 
 
 
@@ -30,6 +32,8 @@ namespace MyMusic.API.Mapping
             CreateMap<SaveArtistRessource, Artist>();
             CreateMap<ComposerRessource, Composer>();
             CreateMap<SaveComposerRessource, Composer>();
+            CreateMap<UserRessource, User>();
+
 
 
 
