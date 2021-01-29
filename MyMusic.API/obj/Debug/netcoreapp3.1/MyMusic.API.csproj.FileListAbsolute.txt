@@ -86,3 +86,15 @@ D:\AspNet2020\ProjetsMusic\MyMusic.API\obj\Debug\netcoreapp3.1\MyMusic.API.cspro
 D:\AspNet2020\ProjetsMusic\MyMusic.API\obj\Debug\netcoreapp3.1\MyMusic.API.dll
 D:\AspNet2020\ProjetsMusic\MyMusic.API\obj\Debug\netcoreapp3.1\MyMusic.API.pdb
 D:\AspNet2020\ProjetsMusic\MyMusic.API\obj\Debug\netcoreapp3.1\MyMusic.API.genruntimeconfig.cache
+D:\AspNet2020\ProjetsMusic\MyMusic.API\bin\Debug\netcoreapp3.1\Microsoft.ApplicationInsights.dll
+D:\AspNet2020\ProjetsMusic\MyMusic.API\bin\Debug\netcoreapp3.1\Microsoft.ApplicationInsights.AspNetCore.dll
+D:\AspNet2020\ProjetsMusic\MyMusic.API\bin\Debug\netcoreapp3.1\Microsoft.AI.DependencyCollector.dll
+D:\AspNet2020\ProjetsMusic\MyMusic.API\bin\Debug\netcoreapp3.1\Microsoft.AI.EventCounterCollector.dll
+D:\AspNet2020\ProjetsMusic\MyMusic.API\bin\Debug\netcoreapp3.1\Microsoft.AI.PerfCounterCollector.dll
+D:\AspNet2020\ProjetsMusic\MyMusic.API\bin\Debug\netcoreapp3.1\Microsoft.AI.WindowsServer.dll
+D:\AspNet2020\ProjetsMusic\MyMusic.API\bin\Debug\netcoreapp3.1\Microsoft.AI.ServerTelemetryChannel.dll
+D:\AspNet2020\ProjetsMusic\MyMusic.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DiagnosticAdapter.dll
+D:\AspNet2020\ProjetsMusic\MyMusic.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.ApplicationInsights.dll
+D:\AspNet2020\ProjetsMusic\MyMusic.API\bin\Debug\netcoreapp3.1\Microsoft.Extensions.PlatformAbstractions.dll
+D:\AspNet2020\ProjetsMusic\MyMusic.API\bin\Debug\netcoreapp3.1\System.Diagnostics.PerformanceCounter.dll
+D:\AspNet2020\ProjetsMusic\MyMusic.API\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.PerformanceCounter.dll

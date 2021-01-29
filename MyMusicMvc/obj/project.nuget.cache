@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "6OrOM/T9yqKQMa+8scmfXiz4+MFm1wOrZ2lTnZJHXjKp4Y2cpXbo3ayDtkRaGA21zb3gGfS2e+T+09wrLhBJGA==",
+  "dgSpecHash": "KOyeD4EUTyBFrKioQQbjyrcn5d9QM+XL/MmyxYF5mLIKNR7k4e2gAZSM4Gfdcvcms2rFXmjUww5/Ui9rJApxWQ==",
   "success": true,
   "projectFilePath": "D:\\AspNet2020\\ProjetsMusic\\MyMusicMvc\\MyMusicMvc.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\diall\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
   "logs": []
 }
