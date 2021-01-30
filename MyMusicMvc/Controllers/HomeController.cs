@@ -25,7 +25,10 @@ namespace MyMusicMvc.Controllers
             _Config = config;
         }
         
-        public async IActionResult Index()
+        /*
+         * cette fonction doit renvoyer List
+         */
+        public async Task<IActionResult >Index()
         {
             var listMusicViewModel = new ListMusicViewModel();
             var listMusic = new List<Music>();
@@ -38,7 +41,6 @@ namespace MyMusicMvc.Controllers
                 }
             }
             listMusicViewModel.ListMusic = listMusic;
-
             return View(listMusicViewModel);
         }
 

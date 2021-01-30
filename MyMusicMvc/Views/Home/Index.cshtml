@@ -1,8 +1,20 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
+﻿@model ListMusicViewModel;
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Name of Music</th>
+            <th>Artist</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var music in Model.ListMusic)
+        {
+            <tr>
+                <td>@music.Name</td>
+                <td>@music.Artist.Name</td>
+            </tr>
+
+        }
+    </tbody>
+</table>

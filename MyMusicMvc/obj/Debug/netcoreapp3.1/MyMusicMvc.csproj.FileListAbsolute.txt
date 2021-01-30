@@ -35,3 +35,4 @@ D:\AspNet2020\ProjetsMusic\MyMusicMvc\obj\Debug\netcoreapp3.1\MyMusicMvc.dll
 D:\AspNet2020\ProjetsMusic\MyMusicMvc\obj\Debug\netcoreapp3.1\MyMusicMvc.pdb
 D:\AspNet2020\ProjetsMusic\MyMusicMvc\obj\Debug\netcoreapp3.1\MyMusicMvc.genruntimeconfig.cache
 D:\AspNet2020\ProjetsMusic\MyMusicMvc\obj\Debug\netcoreapp3.1\MyMusicMvc.csproj.CopyComplete
+D:\AspNet2020\ProjetsMusic\MyMusicMvc\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
